@@ -1,3 +1,6 @@
+![ResultRefiner_SS](https://github.com/yogesh-rai/ResultRefiner/assets/69380654/d59a228d-32ff-45b1-ac6f-12b7563d75b9)
+
+
 # ResultRefiner Chrome Extension
 
 The ResultRefiner Chrome Extension allows you to remove unwanted search results from search engines by specifying blocked websites. You can easily block search results from specific domains that you don't want to see.
