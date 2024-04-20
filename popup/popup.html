@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResultRefiner</title>
+    <link rel="stylesheet" href="https://yogesh-rai.github.io/pixelcss/dist/index.css" />
+</head>
+<body style="width: 400px; margin: 0px;">
+    <main>
+        <h2 class="font-lg lh-2 mb-2 pt-1 pb-1 bg-purple-light-7 text-purple-dark-3 ta-center b-bottom bc-purple-dark-2">ResultRefiner</h2>
+        <!-- <label>Excluded Domain</label>
+        <p>
+            Links from domain you enter here will be excluded from the search
+            results
+        </p> -->
+        <div class="form-container pt-0">
+            <div class="form">
+              <div class="form-group">
+                <label for="websiteInput" class="font-lg">Enter website to block:</label>
+                <input type="text" id="websiteInput" placeholder="test.com">
+              </div>
+              <button id="addButton" class="btn-purple text-white fw-bold w-full br-xs mb-1">Add</button>
+            </div>
+        </div>
+        <!-- <input type="text" id="websiteInput" placeholder="Enter website to block">
+        <button id="addButton">Add</button> -->
+        <div class="container">
+            <h4 class="mt-1 mb-1">Excluded Domains:</h2>
+            <div class="border-solid bw-2 br-xs bg-gray-light-9 h-half" style="height: 25vh; padding: 0.3rem; overflow: auto;">
+                <ul id="blockedWebsitesList"></ul>
+            </div>
+            <button id="removeall" class="btn-outlined-purple mt-1 text-purple fw-bold">Remove All</button>
+            <p class="font-sm fw-bold mt-1 text-gray-dark-5 lh-2">
+                Links from the domains you add here will be excluded from the search results.
+            </p>
+        </main>
+
+        <footer class="bg-gray-light-8 fw-bold ta-center lh-3 p-1" style="margin-top: 32px;">
+            <p style="font-size: 14px;">
+              Made by
+              <a href="https://www.linkedin.com/in/yogesh-rai-b64645159/" target="_blank">Yogesh Rai</a>
+            </p>
+            <p class="font-sm">
+              <a
+                href="https://github.com/yogesh-rai"
+                target="_blank"
+                >Github</a
+              >
+            </p>
+        </footer>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
